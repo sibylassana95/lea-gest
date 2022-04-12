@@ -1,0 +1,212 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', arial, sans-serif;
+    background: grey;
+}
+
+.conteneur {
+    width: 500px;
+    margin: auto;
+box-shadow: 3px 3px 8px black;
+
+
+}
+
+header {
+    background: blue;
+    padding: 15px;
+}
+
+.titre img{
+    width: 30px;
+}
+.profil{
+    width: 50px;
+    
+}
+.titre {
+    text-align: left;
+    color: white;
+}
+.titre a{
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+p a {
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 2px solid #760001;
+}
+nav img{
+     width: 100px;
+}
+
+a:active {
+    color: darkgrey;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+.profil {
+    width: 150px;
+    padding-left: 170px;
+    padding-top: 10px;
+}
+.matieres{
+     font-size: 17px;
+    background: blue;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 430px;
+    height: 150px;
+   }
+.paiement{
+    font-size: 17px;
+    background: blue;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 430px;
+    height: 150px;
+    
+}
+.reçus{
+    font-size: 17px;
+    background: blue;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+.notes1{
+    font-size: 17px;
+    background: blue;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    flex: 1;
+}
+
+.notes2{
+    position: relative;
+    font-size: 17px;
+    background: blue;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+      margin-top: -90px;
+    margin-left: 250px;
+    flex: 1;
+}
+.contact{
+    position: absolute;
+    font-size: 17px;
+    background: blue;
+    border: 1px solid #ddd;
+    margin-left: 250px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin-top: 145px;
+    flex: 1;
+  
+}
+.loi{
+     font-size: 17px;
+    background: blue;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 430px;
+    height: 150px;
+}
+.form {
+    background: white;
+    height: 400px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction:column;
+   
+    
+}
+
+
+
+span {
+    color: black;
+}
+
+
+
+
+@media all and (max-width: 890px)
+{
+
+.conteneur{
+  width: auto;
+}
+    header{
+        width: 700px;
+    }
+ nav{
+  width: auto;
+  text-align: center;
+ }
+
+ nav li{
+  padding-left: 80px;
+ }
+ nav a{
+  font-size: 1.1em;
+ }
+ nav a:hover{
+  border-bottom: 0;
+ }
+.form{
+  margin: auto;
+ width: auto;
+   
+ }
+    .bloc{
+        display:flex;
+        
+    }
+    .infoimg {
+    padding: 0px;
+    margin-top: 100px;
+    padding-left: 400px;
+ display: inline-block;
+        
+}
+
+}
